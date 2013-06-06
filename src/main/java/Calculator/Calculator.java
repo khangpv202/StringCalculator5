@@ -14,7 +14,7 @@ public class Calculator {
         else{
             String regex = "";
             int result = 0;
-            String []tmp = s.split(",");
+            String []tmp = s.split("[\n,]");
             for(String i:tmp)
                 result +=Integer.parseInt(i);
             return result;
