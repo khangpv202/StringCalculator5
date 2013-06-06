@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4998bd37-28e8-4611-8ebc-94eee770e90c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" afterPath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
     </list>
     <ignored path="StringCalculator5.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370501504031" ignored="false" />
+    <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370501862386" ignored="false" />
     <file path="/Dummy.txt" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500599350" ignored="false" />
     <file path="/fragment.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500687488" ignored="false" />
     <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370501716329" ignored="false" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="27" selection-start="807" selection-end="807" vertical-scroll-proportion="1.0380313">
+            <state line="38" column="15" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.69574946">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +109,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
       </list>
     </option>
   </component>
@@ -499,7 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="807" selection-end="807" vertical-scroll-proportion="1.0380313">
+        <state line="38" column="15" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.69574946">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

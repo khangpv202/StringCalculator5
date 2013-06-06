@@ -2,6 +2,7 @@ import Calculator.Calculator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,4 +32,11 @@ public class TestStringCalculator {
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("//;\n1;2;3"));
     }
+    @Test
+    public void testThrowException(){
+        Calculator cal = new Calculator();
+        assertEquals(0,cal.add("//;\n1;2,-3"));
+        fail();
+    }
+
 }
