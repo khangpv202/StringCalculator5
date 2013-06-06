@@ -65,6 +65,11 @@ public class TestStringCalculator {
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("//[*][%]\n1*2%3"));
     }
+    @Test
+    public void testLengofMoreDelimiters(){
+        Calculator cal = new Calculator();
+        assertEquals(6,cal.add("//[***][%%]\n1***2%%3"));
+    }
 
 
 

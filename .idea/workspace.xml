@@ -3,15 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4998bd37-28e8-4611-8ebc-94eee770e90c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" afterPath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StringCalculator5.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370502520978" ignored="false" />
+    <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370504793184" ignored="false" />
     <file path="/Dummy.txt" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500599350" ignored="false" />
     <file path="/fragment.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500687488" ignored="false" />
-    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370504673044" ignored="false" />
-    <file path="$PROJECT_DIR$/../String_Io_Format/src/RegularExpression/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503943571" ignored="false" />
-    <file path="/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503940398" ignored="false" />
+    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370505517452" ignored="false" />
+    <file path="$PROJECT_DIR$/../String_Io_Format/src/RegularExpression/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370505330022" ignored="false" />
+    <file path="/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370505329522" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="17" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+            <state line="65" column="55" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,7 +86,7 @@
       <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="22" selection-start="2480" selection-end="2480" vertical-scroll-proportion="1.1410788">
+            <state line="76" column="34" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.32987553">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1812#1820#0" expanded="true" />
@@ -233,7 +235,7 @@
       <recent name="Calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStringCalculator">
+  <component name="RunManager" selected="JUnit.TestStringCalculator.testMoreDelimiters">
     <configuration default="false" name="TestStringCalculator.testEmptyString" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="StringCalculator5" />
@@ -266,6 +268,75 @@
       <option name="MAIN_CLASS_NAME" value="TestStringCalculator" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestStringCalculator.testLengofMoreDelimiters" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="StringCalculator5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStringCalculator" />
+      <option name="METHOD_NAME" value="testLengofMoreDelimiters" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestStringCalculator.testLengofDelimiter" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="StringCalculator5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStringCalculator" />
+      <option name="METHOD_NAME" value="testLengofDelimiter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestStringCalculator.testMoreDelimiters" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="StringCalculator5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStringCalculator" />
+      <option name="METHOD_NAME" value="testMoreDelimiters" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -371,14 +442,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testEmptyString" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestStringCalculator" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testLengofMoreDelimiters" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testLengofDelimiter" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testMoreDelimiters" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestStringCalculator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testEmptyString" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testMoreDelimiters" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestStringCalculator" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testLengofDelimiter" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testLengofMoreDelimiters" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.testEmptyString" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -494,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="17" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+        <state line="65" column="55" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -503,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="22" selection-start="2480" selection-end="2480" vertical-scroll-proportion="1.1410788">
+        <state line="76" column="34" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.32987553">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1812#1820#0" expanded="true" />

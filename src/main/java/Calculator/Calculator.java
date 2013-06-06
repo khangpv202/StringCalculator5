@@ -62,22 +62,19 @@ public class Calculator {
             String string = input.substring(m.start()+1, m.end()-1);
             list.add(string);
         }
-
+        System.out.println(list);
         String re= "[";
         for(String i:list)
             re+=i;
         re+="]";
-
         Pattern p1 = Pattern.compile("\\d");
         Matcher m1 = p1.matcher(input);
         m1.find();
 
         input = input.substring(m1.start(),input.length());
-        String []tmp = input.split(re);
-        input = "";
-
-        for(String i:tmp)
-            input+=i+",";
+        for(String i:list)
+            input=input.replaceAll(Pattern.quote(i), ",");
+        System.out.println(input);
         return input;
     }
     public String oneDeli(String s){
