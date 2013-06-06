@@ -18,11 +18,20 @@ public class Calculator {
             String regex = "";
             int result = 0;
             if(s.contains("//")){
-                regex=""+s.charAt(2);
-                Pattern p = Pattern.compile("\\d");
-                Matcher m = p.matcher(s);
-                m.find();
-                s = s.substring(m.start(),s.length());
+                if(s.contains("[")){
+                    Pattern p = Pattern.compile("\\d");
+                    Matcher m = p.matcher(s);
+                    m.find();
+                    regex = s.substring(3, m.start()-2);
+                    s = s.substring(m.start(),s.length());
+                    s = s.replace(regex, ",");
+                }else{
+                    regex=""+s.charAt(2);
+                    Pattern p = Pattern.compile("\\d");
+                    Matcher m = p.matcher(s);
+                    m.find();
+                    s = s.substring(m.start(),s.length());
+                }
             }
             String []tmp = s.split("[\n,;]");
             for(String i:tmp){
