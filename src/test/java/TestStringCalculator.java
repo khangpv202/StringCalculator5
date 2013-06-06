@@ -26,4 +26,9 @@ public class TestStringCalculator {
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("1,2\n3"));
     }
+    @Test
+    public void testAddDelimiter(){
+        Calculator cal = new Calculator();
+        assertEquals(6,cal.add("//;\n1;2;3"));
+    }
 }
