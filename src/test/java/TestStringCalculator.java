@@ -54,6 +54,11 @@ public class TestStringCalculator {
         Calculator cal = new Calculator();
         assertEquals(2,cal.add("2,1001"));
     }
+    @Test
+    public void testLengofDelimiter(){
+        Calculator cal = new Calculator();
+        assertEquals(6,cal.add("//[***]\n1***2***3"));
+    }
 
 
 }
