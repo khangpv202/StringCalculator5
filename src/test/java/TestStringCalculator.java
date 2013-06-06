@@ -31,6 +31,12 @@ public class TestStringCalculator {
     public void testAddDelimiter(){
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("//;\n1;2;3"));
+        try {
+            cal.add("//;\n1;2;-3");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
     @Test
     public void testThrowException(){
