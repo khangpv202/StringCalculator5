@@ -9,6 +9,15 @@ package Calculator;
  */
 public class Calculator {
     public int add(String s) {
-        return 0;  //To change body of created methods use File | Settings | File Templates.
+        if(s.isEmpty())
+            return 0;
+        else{
+            String regex = "";
+            int result = 0;
+            String []tmp = s.split(",");
+            for(String i:tmp)
+                result +=Integer.parseInt(i);
+            return result;
+        }
     }
 }
