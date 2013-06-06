@@ -58,7 +58,14 @@ public class TestStringCalculator {
     public void testLengofDelimiter(){
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("//[***]\n1***2***3"));
+        assertEquals(6,cal.add("//[:::]\n1:::2:::3"));
     }
+    @Test
+    public  void testMoreDelimiters(){
+        Calculator cal = new Calculator();
+        assertEquals(6,cal.add("//[*][%]\n1*2%3"));
+    }
+
 
 
 }
