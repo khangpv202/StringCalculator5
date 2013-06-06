@@ -1,5 +1,8 @@
 package Calculator;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Created with IntelliJ IDEA.
  * User: khangpv
@@ -14,7 +17,14 @@ public class Calculator {
         else{
             String regex = "";
             int result = 0;
-            String []tmp = s.split("[\n,]");
+            if(s.contains("//")){
+                regex=""+s.charAt(2);
+                Pattern p = Pattern.compile("\\d");
+                Matcher m = p.matcher(s);
+                m.find();
+                s = s.substring(m.start(),s.length());
+            }
+            String []tmp = s.split("[\n,;]");
             for(String i:tmp)
                 result +=Integer.parseInt(i);
             return result;
