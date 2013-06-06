@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4998bd37-28e8-4611-8ebc-94eee770e90c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" afterPath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
     </list>
     <ignored path="StringCalculator5.iws" />
@@ -9,7 +10,9 @@
     <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370502520978" ignored="false" />
     <file path="/Dummy.txt" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500599350" ignored="false" />
     <file path="/fragment.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500687488" ignored="false" />
-    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370502420294" ignored="false" />
+    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370504097049" ignored="false" />
+    <file path="$PROJECT_DIR$/../String_Io_Format/src/RegularExpression/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503943571" ignored="false" />
+    <file path="/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503940398" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="55" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.69574946">
+            <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.12527964">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,9 +85,10 @@
       <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+            <state line="36" column="35" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#755#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +113,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
       </list>
     </option>
   </component>
@@ -219,6 +223,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../String_Io_Format" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -490,16 +495,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0">
+        <state line="36" column="35" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#755#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="55" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.69574946">
+        <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.12527964">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

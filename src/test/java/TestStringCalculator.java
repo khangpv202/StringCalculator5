@@ -34,7 +34,7 @@ public class TestStringCalculator {
         try {
             cal.add("//;\n1;2;-3");
         }catch (Exception e){
-            e.printStackTrace();
+            //e.printStackTrace();
         }
 
     }

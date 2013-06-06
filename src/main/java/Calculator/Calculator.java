@@ -1,5 +1,6 @@
 package Calculator;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,19 +19,43 @@ public class Calculator {
             String regex = "";
             int result = 0;
             if(s.contains("//")){
-                if(s.contains("[")){
-                    Pattern p = Pattern.compile("\\d");
+                if(checkFinalTest(s)>=2){
+                    Pattern p = Pattern.compile(".*?]");      // the expression
+                    s = s.substring(2,s.length());
                     Matcher m = p.matcher(s);
-                    m.find();
-                    regex = s.substring(3, m.start()-2);
-                    s = s.substring(m.start(),s.length());
-                    s = s.replace(regex, ",");
+                    ArrayList<String> list = new ArrayList<String>();
+                    int count = 0;
+                    while(m.find()) {
+                        String string = s.substring(m.start()+1, m.end()-1);
+                        list.add(string);
+                    }
+                    String re= "[";
+                    for(String i:list)
+                        re+=i;
+                    re+="]";
+                    Pattern p1 = Pattern.compile("\\d");
+                    Matcher m1 = p1.matcher(s);
+                    m1.find();
+                    s = s.substring(m1.start(),s.length());
+                    String []thui = s.split(re);
+                    s = "";
+                    for(String i:thui)
+                        s+=i+",";
                 }else{
-                    regex=""+s.charAt(2);
-                    Pattern p = Pattern.compile("\\d");
-                    Matcher m = p.matcher(s);
-                    m.find();
-                    s = s.substring(m.start(),s.length());
+                    if(s.contains("[")){
+                        Pattern p = Pattern.compile("\\d");
+                        Matcher m = p.matcher(s);
+                        m.find();
+                        regex = s.substring(3, m.start()-2);
+                        s = s.substring(m.start(),s.length());
+                        s = s.replace(regex, ",");
+                    }else{
+                        regex=""+s.charAt(2);
+                        Pattern p = Pattern.compile("\\d");
+                        Matcher m = p.matcher(s);
+                        m.find();
+                        s = s.substring(m.start(),s.length());
+                    }
                 }
             }
             String []tmp = s.split("[\n,;]");
@@ -41,5 +66,14 @@ public class Calculator {
             }
             return result;
         }
+    }
+
+    public int checkFinalTest(String s){
+        Pattern p = Pattern.compile("\\[");      // the expression
+        Matcher m = p.matcher(s);
+        int count = 0;
+        while(m.find())
+            count++;
+        return count;
     }
 }
