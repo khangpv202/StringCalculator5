@@ -21,4 +21,9 @@ public class TestStringCalculator {
         Calculator cal = new Calculator();
         assertEquals(6,cal.add("1,2,3"));
     }
+    @Test
+    public void testAddNewLine(){
+        Calculator cal = new Calculator();
+        assertEquals(6,cal.add("1,2\n3"));
+    }
 }
