@@ -49,5 +49,11 @@ public class TestStringCalculator {
         }
 
     }
+    @Test
+    public void testBigger1000(){
+        Calculator cal = new Calculator();
+        assertEquals(2,cal.add("2,1001"));
+    }
+
 
 }
