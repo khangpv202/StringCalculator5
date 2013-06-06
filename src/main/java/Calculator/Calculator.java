@@ -27,7 +27,8 @@ public class Calculator {
             String []tmp = s.split("[\n,;]");
             for(String i:tmp){
                 if(Integer.parseInt(i)<0) throw  new IllegalArgumentException("negatives not allowed");
-                result +=Integer.parseInt(i);
+                if(Integer.parseInt(i)<=1000)
+                    result +=Integer.parseInt(i);
             }
             return result;
         }
