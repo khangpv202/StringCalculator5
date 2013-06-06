@@ -25,8 +25,10 @@ public class Calculator {
                 s = s.substring(m.start(),s.length());
             }
             String []tmp = s.split("[\n,;]");
-            for(String i:tmp)
+            for(String i:tmp){
+                if(Integer.parseInt(i)<0) throw  new IllegalArgumentException("negatives not allowed");
                 result +=Integer.parseInt(i);
+            }
             return result;
         }
     }

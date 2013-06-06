@@ -35,8 +35,13 @@ public class TestStringCalculator {
     @Test
     public void testThrowException(){
         Calculator cal = new Calculator();
-        assertEquals(0,cal.add("//;\n1;2,-3"));
-        fail();
+        try {
+            assertEquals(0,cal.add("//;\n1;2,-3"));
+            fail();
+        }catch (Exception e){
+            assertEquals("negatives not allowed",e.getMessage());
+        }
+
     }
 
 }
