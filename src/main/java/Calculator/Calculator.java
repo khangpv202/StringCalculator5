@@ -20,35 +20,10 @@ public class Calculator {
             int result = 0;
             if(s.contains("//")){
                 if(checkFinalTest(s)>=2){
-                    Pattern p = Pattern.compile(".*?]");      // the expression
-                    s = s.substring(2,s.length());
-                    Matcher m = p.matcher(s);
-                    ArrayList<String> list = new ArrayList<String>();
-                    int count = 0;
-                    while(m.find()) {
-                        String string = s.substring(m.start()+1, m.end()-1);
-                        list.add(string);
-                    }
-                    String re= "[";
-                    for(String i:list)
-                        re+=i;
-                    re+="]";
-                    Pattern p1 = Pattern.compile("\\d");
-                    Matcher m1 = p1.matcher(s);
-                    m1.find();
-                    s = s.substring(m1.start(),s.length());
-                    String []thui = s.split(re);
-                    s = "";
-                    for(String i:thui)
-                        s+=i+",";
+                    s =moreDeli(s);
                 }else{
                     if(s.contains("[")){
-                        Pattern p = Pattern.compile("\\d");
-                        Matcher m = p.matcher(s);
-                        m.find();
-                        regex = s.substring(3, m.start()-2);
-                        s = s.substring(m.start(),s.length());
-                        s = s.replace(regex, ",");
+                        s= oneDeli(s);
                     }else{
                         regex=""+s.charAt(2);
                         Pattern p = Pattern.compile("\\d");
@@ -75,5 +50,43 @@ public class Calculator {
         while(m.find())
             count++;
         return count;
+    }
+    public String moreDeli(String input){
+        Pattern p = Pattern.compile(".*?]");      // the expression
+        input = input.substring(2,input.length());
+        Matcher m = p.matcher(input);
+
+        ArrayList<String> list = new ArrayList<String>();
+        int count = 0;
+        while(m.find()) {
+            String string = input.substring(m.start()+1, m.end()-1);
+            list.add(string);
+        }
+
+        String re= "[";
+        for(String i:list)
+            re+=i;
+        re+="]";
+
+        Pattern p1 = Pattern.compile("\\d");
+        Matcher m1 = p1.matcher(input);
+        m1.find();
+
+        input = input.substring(m1.start(),input.length());
+        String []tmp = input.split(re);
+        input = "";
+
+        for(String i:tmp)
+            input+=i+",";
+        return input;
+    }
+    public String oneDeli(String s){
+        Pattern p = Pattern.compile("\\d");
+        Matcher m = p.matcher(s);
+        m.find();
+        String regex = s.substring(3, m.start()-2);
+        s = s.substring(m.start(),s.length());
+        s = s.replace(regex, ",");
+        return  s;
     }
 }

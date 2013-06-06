@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4998bd37-28e8-4611-8ebc-94eee770e90c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" afterPath="$PROJECT_DIR$/src/test/java/TestStringCalculator.java" />
     </list>
     <ignored path="StringCalculator5.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370502520978" ignored="false" />
     <file path="/Dummy.txt" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500599350" ignored="false" />
     <file path="/fragment.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370500687488" ignored="false" />
-    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370504097049" ignored="false" />
+    <file path="/Calculator.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370504673044" ignored="false" />
     <file path="$PROJECT_DIR$/../String_Io_Format/src/RegularExpression/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503943571" ignored="false" />
     <file path="/TestRegex.java" changelist="4998bd37-28e8-4611-8ebc-94eee770e90c" time="1370503940398" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.12527964">
+            <state line="63" column="17" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,13 +81,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="35" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+            <state line="84" column="22" selection-start="2480" selection-end="2480" vertical-scroll-proportion="1.1410788">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#755#763#0" expanded="true" />
+                <element signature="e#1812#1820#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,10 +118,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="604" />
-    <option name="y" value="16" />
-    <option name="width" value="991" />
-    <option name="height" value="881" />
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1554" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -397,7 +396,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="604" y="16" width="991" height="881" extended-state="0" />
+    <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -417,8 +416,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14639397" sideWeight="0.65512466" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34487534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09115282" sideWeight="0.67107004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,21 +492,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="35" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+        <state line="63" column="17" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#755#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestStringCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.12527964">
+        <state line="84" column="22" selection-start="2480" selection-end="2480" vertical-scroll-proportion="1.1410788">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1812#1820#0" expanded="true" />
           </folding>
         </state>
       </provider>
